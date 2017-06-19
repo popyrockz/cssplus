@@ -1,3 +1,8 @@
+hr {
+  height: 0;
+  -moz-box-sizing: content-box;
+       box-sizing: content-box;
+}
 figure {
   margin: 0;
 }
