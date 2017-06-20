@@ -1151,6 +1151,89 @@ img {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+a.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: #428bca;
+  background-color: #fff;
+}
+.nav-pills > li > a > .badge {
+  margin-left: 3px;
+}
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.container .jumbotron {
+  border-radius: 6px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.thumbnail > img,
+.thumbnail a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #428bca;
+}
+.thumbnail .caption {
+  padding: 9px;
+  color: #333;
+}
+
+
+
 .clearfix:before,
 .clearfix:after,
 .container:before,
